@@ -1,0 +1,159 @@
+/*
+ *  File Name: styles.css
+ *  Assignment: ENSF 614 Project
+ *  Completed by: Matjaz Cigler
+ * Description: All the CSS styling for use in the components
+ */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: 100%;
+    z-index: 200;
+
+  }
+
+  .user-input-bar {
+    background-color: #222; /* Dark background color */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 150px;
+    height: 75px;
+    left: -10;
+    width: 100%;
+    z-index: 100; /* Adjust the z-index to be below the header */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  } 
+
+  .input-item {
+    margin: 10px; /* Add some margin between items */
+  }
+
+  .header-buttons{
+    text-align: left;
+  }
+
+  .show-flights{
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    top: 225px;
+    left: -10;
+    width: 100%;
+    z-index: 99; /* Adjust the z-index to be below the header */
+    justify-content: center;
+    border-style: solid;
+
+  }
+
+  .show-flight {
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    z-index: 99; /* Adjust the z-index to be below the header */
+    justify-content: center;
+    border-style: solid;
+  }
+  
+
+  .flight-panel{
+    z-index: 99; 
+    display: inline;
+    margin: 10px; 
+    padding: 5px;
+    border-style: dashed;
+    border-color: grey;
+    border-radius: 5px;
+
+  }
+  .no-flights{
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 225px;
+    height: 50px;
+    left: -10;
+    width: 100%;
+    z-index: 99; /* Adjust the z-index to be below the header */
+    justify-content: center;
+  }
+
+  .login{
+    position: absolute;
+    align-items: center;
+    height: 100%;
+    left: 50%;
+    margin: -130px;
+  }
+
+  .user-info{
+    z-index: 50; 
+    margin: 10px; 
+    padding: 5px;
+    border-style: dashed;
+    border-color: grey;
+    border-radius: 5px;
+
+  }
+  .show-passengers{
+    padding: 10px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 5px;
+  }
+  .passenger-panel{
+    display: inline;
+    padding: 10px;
+  }
+
+  .create-user{
+    position: relative;
+    align-items: left;
+    padding: 10px;
+
+
+  }
+  .seat-map{
+    position: absolute;
+    top: 525px;
+    bottom: 0px;
+  }
+  .seat{
+    z-index: 99; 
+    position: absolute;
+    top: 350px;
+    bottom: 450px;
+    margin: 10px;
+    
+  }
+
+
+  .book-title {
+    z-index: 99; 
+    position: absolute;
+    top: 250px;
+    bottom: 300px;
+
+  }
+
+  .passenger-payment{
+    z-index: 99; 
+    position: absolute;
+    top: 350px;
+    bottom: 450px;
+    margin: 10px;
+    
+  }
