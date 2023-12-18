@@ -4,6 +4,26 @@
 
 https://www.youtube.com/watch?v=0aw5as_f0C4
 
+###Brief Description
+
+Flight reservation app, implemented users include:
+
+Guest user: browse flights, book flights, create account
+
+Registered Customer: view booked flights, cancel flights, book flights
+
+Travel Agent: Browse flights and passengers on each flight
+
+Crew member: view registered flights and passengers on each flight, browse flights and passengers on each flight
+
+This project was for an advanced system design class.  
+Used a React/Typescript front end using the Bootstrap library.
+Used a Springboot/Java backend.
+Used a MySQL database. 
+
+React, Typescript, and Springboot were learned from scratch to complete this project.
+
+
 ## Instuctions for running the program.
 
 First unzip the development folder.
